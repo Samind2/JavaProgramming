@@ -11,11 +11,11 @@ public class Exercise56 {
             float water = scan.nextFloat();
             float total = 100;
             if (type == 1) {
-                double pay =  (100 + water) * 0.01;
+                double pay =  (total * water) * 0.05;
                 System.out.println(pay + "บาท" );
             } else {
                 if (type == 2) {
-                double pay = (100 + water) * 0.02;
+                double pay = (total * water) * 0.09;
                 System.out.println(pay + "บาท" );
                 }
             }  
